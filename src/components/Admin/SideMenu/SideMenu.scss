@@ -1,0 +1,26 @@
+.side-menu-admin{
+    border-right: none !important;
+
+    .content {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .sidebar{
+        background-color: blue;
+        width: 200px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        min-height: 100vh !important;
+        z-index: 100;
+        padding-top: 15px;
+        padding-left: 15px;
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+        float: left;
+    }
+
+    .icon{
+        margin-right: .8em;
+    }
+}
